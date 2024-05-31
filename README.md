@@ -25,7 +25,7 @@ repeter til tallet er 1
 
 ### Optional 3
 
-- Gjør kalkulasjonen i en egent tråd
+- Gjør kalkulasjonen i en egen tråd
 
     [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)
 
