@@ -29,6 +29,24 @@ repeter til tallet er 1
 
     [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers)
 
+## Snippets
+
+```javascript
+function handleSubmit(event) {
+    // Stopper form submit fra å refresh nettsiden
+    event.preventDefault()
+
+    console.log("hello world")
+}
+// Arrow function, anonymous function, lambda function
+(event) => {
+    // Stopper form submit fra å refresh nettsiden
+    event.preventDefault()
+
+    console.log("Hello world")
+}
+```
+
 ## Lenker
 
 - [Collatz' Formodning](https://no.wikipedia.org/wiki/Collatz%E2%80%99_formodning)
