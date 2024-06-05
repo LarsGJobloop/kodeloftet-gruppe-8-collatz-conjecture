@@ -32,6 +32,7 @@ repeter til tallet er 1
 
 ## Snippets
 
+### Functions og Arrow Functions
 ```javascript
 function handleSubmit(event) {
     // Stopper form submit fra å refresh nettsiden
@@ -47,6 +48,57 @@ function handleSubmit(event) {
     console.log("Hello world")
 }
 ```
+
+### Collatz
+```
+// Med rekursjon
+function collatzA(number) {
+    // Avslutt viss tallet er 1
+    if (number === 1) {
+        console.log(number + " is final")
+        return
+    }
+
+    // finne ut om tallet er et partall eller oddetall
+    const isEven = (number % 2) === 0
+
+    if (isEven) {
+        // Partalls logikk
+        console.log(number + " is even")
+
+        number = number / 2
+    } else {
+        // Oddetalls logikk
+        console.log(number + " is odd")
+
+        number = (number * 3) + 1
+    }
+
+    // Gå igjennom algoritmen på nytt (via rekursjon)
+    collatzA(number)
+}
+
+// Via en while løkke
+function collatzB(number) {
+    const numberRow = []
+    numberRow.push(number)
+
+    while (number > 1) {
+
+        const isEven = (number % 2) === 0
+        if (isEven) {
+            number = number / 2
+        } else {
+            number = (number * 3) + 1
+        }
+
+        numberRow.push(number)
+    }
+
+    return numberRow
+}
+```
+
 
 ## Lenker
 
