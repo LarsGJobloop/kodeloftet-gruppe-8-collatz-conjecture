@@ -1,4 +1,4 @@
-# kodeloftet-gruppe-8-collatz-conjuncture
+# kodeloftet-gruppe-8-collatz-conjecture
 
 ## Algoritmen
 
