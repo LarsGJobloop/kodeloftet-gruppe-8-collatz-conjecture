@@ -6,6 +6,7 @@ Start med et valgfritt tall
 
 Viss tallet er et partall
 - Del tallet på 2 ( n / 2)
+
 Viss taller er et oddetall
 - Gang med 3 og legg til 1 ( (n * 3) + 1)
 
