@@ -50,7 +50,7 @@ function handleSubmit(event) {
 ```
 
 ### Collatz
-```
+```javascript
 // Med rekursjon
 function collatzA(number) {
     // Avslutt viss tallet er 1
